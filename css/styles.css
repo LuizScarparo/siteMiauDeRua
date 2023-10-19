@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.body {
+    min-height: 100vh;
+}
+
+.header-logo {
+    background-color: #d2e9f7;
+    display: flex;
+    justify-content: center;
+}
+
+.container.text-center{
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}
+
+.slide-container {
+    max-width: 112rem;
+    width: 100%;
+    padding: 4rem;
+}
+
+
+.slide-content {
+    margin:  0 4rem;
+    overflow: hidden;
+    border-radius: 2.5rem;
+}
+
+.card,
+.swiper-slide {
+    border-radius: 2.5rem;
+}
+
+
+
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.4rem;
+}
+
+.image-content {
+    row-gap: .5rem;
+    position: relative;
+    padding: 2.5rem 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #d2e9f7;
+    left: 0;
+    top: 0;
+    border-radius: 2.5rem;
+}
+
+
+.card-image {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    padding: .3rem;
+
+}
+
+.name {
+    font-size: 1.8rem;  
+    font-weight: 500;
+    color: #333;
+}
+
+.description {
+    font-size: 1.4rem;
+    color: #707070;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: .8rem 1.6rem;
+    background-color: #4070F4;
+    border-radius: .6rem;
+    margin: 1.4rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: #345ac3;
+    cursor: pointer;
+}
+
+.swiper-navBtn {
+    color: #4070F4;
+    transition: color .3s ease;
+}
+.swiper-navBtn:hover {
+    color: #355699;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .4rem solid #ffffff;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+
+
+@media (min-width: 990px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
