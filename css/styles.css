@@ -5,12 +5,19 @@
 }
 
 :root {
-    font-size: 62.5%;
+    font-size: 55%;
 }
 
 nav {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.dropdown,
+nav-link {
+    padding: 0 2rem 0 ;
 }
 
 .header-logo {
@@ -47,24 +54,31 @@ p {
 .row img {
     width: 100%;
     height: auto;
+    box-shadow: 2rem;
 }
 
 h2.secondTitle {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 0 5rem 0;
-    margin-bottom: 3rem;
+    padding: 5rem 0 2rem 0;
+    margin-bottom: 2rem;
     
     font-size: 4.5rem;
     font-weight: bold;
     font-family: 'Indie Flower', cursive;
+    text-shadow: 1px 1px 2px rgb(1, 1, 1);
 
 }
 
 .col {
     display: flex;
     align-items: center;
+}
+
+img {
+    box-shadow: 2rem;
+    
 }
 
 .slide-container {
@@ -78,9 +92,11 @@ h2.secondTitle {
     border-radius: 2.5rem;
 }
 
+
 .card,
 .swiper-slide {
     border-radius: 2.5rem;
+    outline: none;
 }
 
 .image-content,
@@ -89,6 +105,7 @@ h2.secondTitle {
     flex-direction: column;
     align-items: center;
     padding: 1rem 1.4rem;
+    background-color: #f1f1f1;
 }
 
 .image-content {
@@ -145,12 +162,12 @@ h2.secondTitle {
 }
 
 .swiper-navBtn {
-    color: #4070F4;
+    color: #c3d3ff;
     transition: color .3s ease;
 }
 
 .swiper-navBtn:hover {
-    color: #355699;
+    color: #97a8ca;
 }
 
 .card-image .card-img {
@@ -163,7 +180,7 @@ h2.secondTitle {
 
 .swiper-navBtn::before,
 .swiper-navBtn::after {
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .swiper-button-next {
@@ -174,10 +191,26 @@ h2.secondTitle {
     left: 0;
 }
 
-
 .footer {
     background: #152F4F;
     color: white;
+}
+
+.card-group,
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15rem;
+    
+}
+
+.card-group {
+    background-color: #c3d3ff;
+    width: 100%;
+    height: 130rem;
 }
 
 .footer .links ul {
@@ -203,18 +236,25 @@ h2.secondTitle {
     transition: color .2s;
 }
 
-.footer .about-company a:hover {
-    color: #4180CB;
-}
-
 .footer .location i {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
-.footer .copyright p {
-    border-top: 1px solid rgba(255, 255, 255, .1);
+.card-title {
+    font-size: 3rem;
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: bold;
+    
 }
 
+.card-title footer {
+    margin-bottom: 5rem;
+}
+
+.card-text {
+    font-size: 15rem;
+    font-family: 'Indie Flower', sans-serif;
+}
 .footer img {
     width: 2rem;
     height: 2rem;
@@ -228,3 +268,15 @@ h2.secondTitle {
     }
     
 }
+/* Defina os tamanhos de fonte para diferentes larguras de tela usando @media queries */
+@media (min-width: 790px) {
+    .card-group {
+        height: 50rem;
+    }
+
+}
+@media (max-width: 576px) {
+
+
+}
+

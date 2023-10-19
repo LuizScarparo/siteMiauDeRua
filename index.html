@@ -25,7 +25,7 @@
         <div class="header-logo">
             <img src="./assets/logoMiau.png" alt="Logo da Miau">
         </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,7 +34,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -80,9 +80,15 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Apoiadores</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Apoiadores
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Conheça nossos apoiadores</a></li>
+                            </ul>
+
                         </li>
                     </ul>
                 </div>
@@ -93,7 +99,7 @@
     <div class="container text-center">
         <div class="row">
             <div class="col">
-                <img src="./assets/imagemGato.webp" alt="" srcset="">
+                <img src="./assets/imagemGato.webp" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             </div>
             <div class="col">
                 <p class="row">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,7 +114,7 @@
         <section class="carousel-wrapper">
             <div class="slide-container swiper">
                 <div class="slide-content">
-                    <div class="card-wrapper swiper-wrapper">
+                    <div class="card-wrapper swiper-wrapper  ">
                         <div class="card swiper-slide">
                             <div class="image-content">
                                 <span class="overlay"></span>
@@ -279,15 +285,36 @@
                             Similique ea sint quam modi temporibus, autem ad ratione aperiam magnam asperiores eligendi
                             aspernatur
                             minima quidem ab, harum impedit inventore sunt quae!</p>
-                        </div>
-                        <div class="col">
-                            <img src="./assets/apoio.png" alt="" srcset="">
-                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/apoio.png" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
+        <h2 class="secondTitle">Nosso trabalho</h2>
+        <div class="card-group">
+            <div class="card-footer">
+                <div class="card-body">
+                    <h5 class="card-title">Gatos em <br>novos lares</h5>
+                    <p class="card-text">XX</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="card-body">
+                    <h5 class="card-title">Castrações realizadas</h5>
+                    <p class="card-text">XX</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="card-body">
+                    <h5 class="card-title">Apoiadores</h5>
+                    <p class="card-text">XX</p>
+                </div>
+            </div>
+        </div>
         <div class="mt-5 pt-5 pb-5 footer">
             <div class="container">
                 <div class="row">
