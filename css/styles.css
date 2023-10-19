@@ -8,14 +8,30 @@
     font-size: 62.5%;
 }
 
-.body {
-    min-height: 100vh;
+nav {
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header-logo {
     background-color: #d2e9f7;
     display: flex;
     justify-content: center;
+}
+
+.body {
+    min-height: 100vh;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    
 }
 
 .container.text-center {
@@ -38,7 +54,12 @@ h2.secondTitle {
     align-items: center;
     justify-content: center;
     padding: 5rem 0 5rem 0;
+    margin-bottom: 3rem;
     
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 .col {
@@ -153,14 +174,6 @@ h2.secondTitle {
     left: 0;
 }
 
-@media (min-width: 990px) {
-    .row {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-
 
 .footer {
     background: #152F4F;
@@ -200,4 +213,18 @@ h2.secondTitle {
 
 .footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer img {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+@media (min-width: 990px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
