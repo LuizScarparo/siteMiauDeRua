@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.container.text-center{
+.container.text-center {
     margin-top: 2rem;
 }
 
@@ -33,20 +33,26 @@
     height: auto;
 }
 
+h2.secondTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 5rem 0;
+    
+}
+
 .col {
     display: flex;
     align-items: center;
 }
 
 .slide-container {
-    max-width: 112rem;
+    max-width: 130rem;
     width: 100%;
-    padding: 4rem;
 }
 
-
 .slide-content {
-    margin:  0 4rem;
+    margin: 0 4rem;
     overflow: hidden;
     border-radius: 2.5rem;
 }
@@ -55,9 +61,6 @@
 .swiper-slide {
     border-radius: 2.5rem;
 }
-
-
-
 
 .image-content,
 .card-content {
@@ -83,18 +86,16 @@
     border-radius: 2.5rem;
 }
 
-
 .card-image {
     position: relative;
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
     padding: .3rem;
-
 }
 
 .name {
-    font-size: 1.8rem;  
+    font-size: 1.8rem;
     font-weight: 500;
     color: #333;
 }
@@ -126,6 +127,7 @@
     color: #4070F4;
     transition: color .3s ease;
 }
+
 .swiper-navBtn:hover {
     color: #355699;
 }
@@ -138,6 +140,11 @@
     border: .4rem solid #ffffff;
 }
 
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 4rem;
+}
+
 .swiper-button-next {
     right: 0;
 }
@@ -146,8 +153,6 @@
     left: 0;
 }
 
-
-
 @media (min-width: 990px) {
     .row {
         display: flex;
@@ -155,3 +160,44 @@
     }
 }
 
+
+
+.footer {
+    background: #152F4F;
+    color: white;
+}
+
+.footer .links ul {
+    list-style-type: none;
+}
+
+.footer .links ul li a {
+    color: white;
+    transition: color .2s;
+}
+
+.footer .links ul li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+}
+
+.footer .about-company i {
+    font-size: 25px;
+}
+
+.footer .about-company a {
+    color: white;
+    transition: color .2s;
+}
+
+.footer .about-company a:hover {
+    color: #4180CB;
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
