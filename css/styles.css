@@ -8,11 +8,28 @@
     font-size: 55%;
 }
 
-nav {
-    font-size: 2rem;
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 3rem;
-    color: white;
+header img {
+    width: 35rem;
+}
+
+.col p .btn-primary {
+    width: 15rem;
+    height: 4rem;
+
+    margin-top: 3rem;
+    background: #025371;
+
+    color: #fff;
+    font-size: 1.6rem;
+
+    transition: .3s ease;
+
+
+}
+
+.col p .btn-primary:hover {
+
+    background: #02374b;
 }
 
 .dropdown,
@@ -26,6 +43,12 @@ nav-link {
     justify-content: center;
 }
 
+nav {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3rem;
+    color: white;
+}
 .body {
     min-height: 100vh;
 }
@@ -37,7 +60,10 @@ p {
 
 .row p {
     font-size: 2rem;
-    padding-top: 2rem;
+    padding: 2rem 2rem;
+
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -144,22 +170,6 @@ img {
     text-align: center;
 }
 
-.button {
-    border: none;
-    font-size: 1.6rem;
-    color: #fff;
-    padding: .8rem 1.6rem;
-    background-color: #4070F4;
-    border-radius: .6rem;
-    margin: 1.4rem;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-.button:hover {
-    background-color: #345ac3;
-    cursor: pointer;
-}
 
 .swiper-navBtn {
     color: #c3d3ff;
@@ -191,9 +201,29 @@ img {
     left: 0;
 }
 
+.buttonVerMais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+button img {
+    width: 6rem;
+    height: 6rem;
+}
+
 .footer {
     background: #152F4F;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+button p {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .card-group,
@@ -266,9 +296,8 @@ img {
         display: flex;
         flex-direction: row;
     }
-    
+
 }
-/* Defina os tamanhos de fonte para diferentes larguras de tela usando @media queries */
 @media (min-width: 790px) {
     .card-group {
         height: 50rem;
