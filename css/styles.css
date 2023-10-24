@@ -53,6 +53,15 @@ nav {
     min-height: 100vh;
 }
 
+.nav-item {
+    padding-right: 2rem;
+}
+
+.dropdown-item {
+    font-size: 1.6rem;
+    color: white;
+}
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -291,21 +300,42 @@ button p {
     color: white;
 }
 
+/*contribua buttons*/
+
+.d-grid button {
+    height: 4rem;
+    border-radius: 5rem;
+    border: 1px transparent #425658;
+
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2e5b77;
+}
+
+
 @media (min-width: 990px) {
     .row {
         display: flex;
         flex-direction: row;
     }
 
+    .d-grid {
+        display: flex;
+        justify-content: center;
+        padding: 4rem;
+    }
+
+    .d-grid button {
+        width: 70rem;
+        height: 4rem;
+    }
+
+
 }
 @media (min-width: 790px) {
     .card-group {
         height: 50rem;
     }
-
-}
-@media (max-width: 576px) {
-
 
 }
 
