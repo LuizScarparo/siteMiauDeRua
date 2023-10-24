@@ -266,18 +266,31 @@ button p {
     color: #4180CB;
 }
 
-.footer .about-company i {
-    font-size: 25px;
+.pr-5.text-white-50 {
+    font-size: 1.5rem;
+    color: #fff;
+
 }
 
-.footer .about-company a {
-    color: white;
-    transition: color .2s;
+.col-lg-3.col-xs-12.links {
+    padding-left: 3rem;
 }
 
-.footer .location i {
-    font-size: 1.8rem;
+.col-lg-3.col-xs-12.links h4 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
+
+.col-lg-3.col-xs-12.links a {
+    padding-left: 0;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.col-lg-3.col-xs-12.links li a i {
+    font-size: 1.5rem;
+}
+
 
 .card-title {
     font-size: 3rem;
@@ -299,6 +312,12 @@ button p {
     height: 2rem;
     color: white;
 }
+
+footer h2 {
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
 
 /*contribua buttons*/
 
