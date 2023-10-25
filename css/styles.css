@@ -272,23 +272,56 @@ button p {
 
 }
 
-.col-lg-3.col-xs-12.links {
+.col-lg-2.col-xs-12.links {
     padding-left: 3rem;
 }
 
-.col-lg-3.col-xs-12.links h4 {
+.col-lg-2.col-xs-12.links h4 {
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.col-lg-3.col-xs-12.links a {
+.col-lg-2.col-xs-12.links a {
     padding-left: 0;
     font-size: 1.6rem;
     border: none;
 }
 
-.col-lg-3.col-xs-12.links li a i {
+.col-lg-2.col-xs-12.links li a i {
     font-size: 1.5rem;
+}
+
+
+.col-lg-3.col-xs-12.location h4 {
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+.col-lg-3.col-xs-12.location p {
+    font-size: 1.5rem;
+}
+
+.col-lg-2.col-xs-12.shortcuts h4 {
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+.col-lg-2.col-xs-12.shortcuts p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.col-lg-2.col-xs-12.shortcuts a {
+    text-decoration: none;
+
+}
+
+.col-lg-3.col-xs-12.location,
+.col-lg-2.col-xs-12.shortcuts,
+.col-lg-4.col-xs-12.about-company,
+.col-lg-2.col-xs-12.links {
+    margin: 2rem .5rem 0;
 }
 
 
