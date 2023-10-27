@@ -447,6 +447,12 @@ footer h2 {
     font-size: 5rem;
 }
 
+.requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .donationCard img {
     max-width: 50%;
 }
@@ -461,6 +467,14 @@ footer h2 {
 .btn.btn-primary.active {
     margin-bottom: 3rem;
 }
+
+.adoption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
 
 @media (min-width: 990px) {
     .row {
@@ -482,6 +496,17 @@ footer h2 {
     .card-group {
         display: flex;
         flex-direction: column;
+    }
+
+    .requirements {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+
+    .adoption {
+        max-width: 90%;
     }
 
 }
