@@ -126,6 +126,7 @@ h2.secondTitle {
     justify-content: center;
     padding: 5rem 0 2rem 0;
     margin-bottom: 2rem;
+    text-align: center;
 
     font-size: 4.5rem;
     font-weight: bold;
@@ -345,8 +346,7 @@ button p {
 
 .card-body {
     background-color: #d2e9f7;
-    border-radius: 3rem;
-    border: 2px solid #222424;
+    border-radius: 10rem;
 
 
     text-align: center;
@@ -370,7 +370,7 @@ button p {
     margin: 3rem auto;
     border-radius: 3rem;
     width: 90%;
-
+    border: var(--bs-card-border-color);
 }
 
 .helpClass {
@@ -391,29 +391,9 @@ button p {
 
 .btn.btn-primary.active:hover {
     background-color: #123b4a;
+
 }
 
-
-
-
-/*
-
-
-.card-title footer {
-    margin-bottom: 5rem;
-}
-
-.card-text {
-    font-size: 15rem;
-    font-family: 'Indie Flower', sans-serif;
-}
-.footer img {
-    width: 2rem;
-    height: 2rem;
-    color: white;
-}
-
-*/
 footer h2 {
     padding-left: 2rem;
     font-size: 2rem;
@@ -460,18 +440,13 @@ footer h2 {
 
 @media (min-width: 576px) {
     .card-group {
-        border-radius: 3rem;
-        background-color: #d2e9f7;;
-        border: 2px solid #222424;
-        
+        border-radius: 10rem;
+        background-color: #d2e9f7;; 
     }
 
     .card-body {
         border: none;
         background-color: #d2e9f7;
     }
-    .card.text-center {
-        border: 2px solid #222424;
-    
-    }
+
 }
