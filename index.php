@@ -1,99 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Miau</title>
-
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Indie+Flower:wght@400;700&display=swap"
-        rel="stylesheet">
-
-
-
-</head>
-
-<body>
-    <header>
-        <div class="header-logo">
-            <a href="index.html"><img src="./assets/logo/logoreal.jpg" alt="Logo da Miau"></a>
-        </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                ONG
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="ong.html">Nossa história</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="contribua.html">Nos ajude</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="colaboladores.html">Colaboradores</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="adote.html" role="button" aria-expanded="false">
-                                Adote
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="conhecaMimis.html" role="button" aria-expanded="false">
-                                Conheça os mimis
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="produtos.html" role="button" aria-expanded="false">
-                                Nossos produtos
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="contribua.html" role="button" aria-expanded="false">
-                                Contribua
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="eventos.html" role="button" aria-expanded="false">
-                                Eventos
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="doacao.html" role="button" aria-expanded="false">
-                                DOAR
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php 
+include 'includes/header.php';
+?>
     <picture>
         <source srcset="./assets/logo/MainBannerMobile.jpg" media="(max-width: 990px)">
 
@@ -106,8 +13,10 @@
                 <img src="./assets/imagemGato.webp" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             </div>
             <div class="col">
-                <p class="row">🐾 Apoie a ONG Miau de Rua! 🐾<br><br>
-                    Você pode fazer a diferença na vida dos gatinhos de rua! Ajude-nos a proporcionar amor, cuidado e um lar seguro para esses adoráveis amigos felinos. Seja parte da nossa missão - adote um gato, faça uma doação generosa ou torne-se um voluntário dedicado. Cada gesto conta!
+                <p class="row"> Apoie a ONG Miau de Rua! <br><br>
+                    Você pode fazer a diferença na vida dos gatinhos de rua! Ajude-nos a proporcionar amor, cuidado e um
+                    lar seguro para esses adoráveis amigos felinos. Seja parte da nossa missão - adote um gato, faça uma
+                    doação generosa ou torne-se um voluntário dedicado. Cada gesto conta!
                     <a href="contribua.html"><button type="button" class="btn btn-primary active">Ver mais</button></a>
                 </p>
             </div>
@@ -119,8 +28,12 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <p class="row">A Miau de Rua tem como foco principal conscientizar a sociedade sobre a importância da adoção e do cuidado responsável de gatos, realizando ações eficazes como palestras e eventos. Contamos com uma equipe de voluntários dedicados, determinados a tornar o mundo um local mais seguro e carinhoso para esses adoráveis felinos.
-                            <a href="ong.html"><button type="button" class="btn btn-primary active">Ver mais</button></a>
+                        <p class="row">A Miau de Rua tem como foco principal conscientizar a sociedade sobre a
+                            importância da adoção e do cuidado responsável de gatos, realizando ações eficazes como
+                            palestras e eventos. Contamos com uma equipe de voluntários dedicados, determinados a tornar
+                            o mundo um local mais seguro e carinhoso para esses adoráveis felinos.
+                            <a href="ong.html"><button type="button" class="btn btn-primary active">Ver
+                                    mais</button></a>
                         </p>
                     </div>
                     <div class="col">
@@ -293,86 +206,31 @@
             </div>
         </section>
     </main>
-    <footer>
-        <h2 class="secondTitle">Nosso trabalho</h2>
-        <div class="card-group ">
-            <div class="card rounded-pill">
-                <div class="card-body">
-                    <p class="card-text">XX</p>
-                    <h5 class="card-title">Gatos adotados</h5>
-                </div>
-            </div>
-            <div class="card rounded-pill">
-                <div class="card-body">
-                    <p class="card-text">XX</p>
-                    <h5 class="card-title">Voluntários</h5>
-                </div>
-            </div>
-            <div class="card rounded-pill">
-                <div class="card-body">
-                    <p class="card-text">XX</p>
-                    <h5 class="card-title">Parceiros</h5>
-                </div>
-            </div>
-
-        </div>
-        <div class="mt-5 pt-5 pb-5 footer">
-            <div class="container">
-                <div class="rowFooter">
-                    <div class="col-lg-4 col-xs-12 about-company">
-                        <h2>Miau de rua</h2>
-                        <p class="pr-5 text-white-50">Estenda a mão para quem nunca lhe negará AMOR. Adote!
-                            ONG com foco em ajudar gatos de rua - Guaporé/RS </p>
-                            <img src="./assets/logo/logoFooter.jpg" alt="">
-                    </div>
-                    <div class="col-lg-2 col-xs-12 links">
-                        <h4 class="mt-lg-0 mt-sm-4">Links</h4>
-                        <ul class="m-0 p-0">
-                            <li> <a class="btn text-white btn-floating m-1" href="#!" role="button"><i
-                                        class="fa-brands fa-facebook"></i> Facebook</a></li>
-                            <li> <a class="btn text-white btn-floating m-1" href="#!" role="button"><i
-                                        class="fab fa-instagram"></i> Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-xs-12 location">
-                        <h4 class="mt-lg-0 mt-sm-4">Endereço</h4>
-                        <p>Rua Manoel Francisco Guerreiro</p>
-                        <p><i class="fa fa-phone mr-3"></i>(54) 99999-9999</p>
-                        <p><i class="fa fa-envelope-o mr-3"></i>info@miau.com</p>
-                    </div>
-                    <div class="col-lg-2 col-xs-12 shortcuts">
-                        <h4 class="mt-lg-0 mt-sm-4">Atalhos</h4>
-                        <p>
-                            <a href="/index.html" class="text-reset">Home</a>
-                        </p>
-                        <p>
-                            <a href="/adote.html" class="text-reset">Adote</a>
-                        </p>
-                        <p>
-                            <a href="/conhecaMimis.html" class="text-reset">Conheça os mimis</a>
-                        </p>
-                        <p>
-                            <a href="/contribua.html" class="text-reset">Contribua</a>
-                        </p>
-                        <p>
-                            <a href="/apoiadores.html" class="text-reset">Apoiadores</a>
-                        </p>
-                    </div>
-                </div>
+    <h2 class="secondTitle">Nosso trabalho</h2>
+    <div class="card-group ">
+        <div class="card rounded-pill">
+            <div class="card-body">
+                <p class="card-text">XX</p>
+                <h5 class="card-title">Gatos adotados</h5>
             </div>
         </div>
-        
-    </footer>
+        <div class="card rounded-pill">
+            <div class="card-body">
+                <p class="card-text">XX</p>
+                <h5 class="card-title">Voluntários</h5>
+            </div>
+        </div>
+        <div class="card rounded-pill">
+            <div class="card-body">
+                <p class="card-text">XX</p>
+                <h5 class="card-title">Parceiros</h5>
+            </div>
+        </div>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/b469d1d675.js" crossorigin="anonymous"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+    </div>
+    <?php 
+    include 'includes/footer.php';
+    ?>
 </body>
 
 </html>
