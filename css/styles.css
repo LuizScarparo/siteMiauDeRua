@@ -55,6 +55,7 @@ nav {
 .body {
     min-height: 100vh;
     margin: auto;
+    background: url('./assets/backgroundImage.jpg');
 }
 
 .nav-item {

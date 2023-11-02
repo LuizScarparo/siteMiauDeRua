@@ -29,7 +29,7 @@
 
 </head>
 
-<body>
+<body backgroud="backgroudImage1.jpg">
     <header>
         <div class="header-logo">
             <a href="index.php"><img src="./assets/logo/logoreal.jpg" alt="Logo da Miau"></a>
