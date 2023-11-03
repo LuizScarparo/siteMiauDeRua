@@ -539,6 +539,14 @@ footer img {
 }
 
 
+/* eventos*/
+
+.eventTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+
 @media (min-width: 990px) {
     .row {
         display: flex;

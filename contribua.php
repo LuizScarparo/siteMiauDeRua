@@ -15,7 +15,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col">
                     <p class="row">Existem muitos gatinhos esperando por uma segunda oportunidade e por um lar cheio de amor. Opte por adotar, não compre.
-                        <a href="adote.html"><button type="button" class="btn btn-primary active">Ver mais</button></a>
+                        <a href="adote.php"><button type="button" class="btn btn-primary active">Ver mais</button></a>
                     </p>
                 </div>
             </div>
@@ -25,7 +25,7 @@ include 'includes/header.php';
             <div class="row">
                 <div class="col">
                     <p class="row">Com a sua ajuda, podemos manter nosso trabalho, resgatando mais gatinhos e encontrando lares amorosos para eles. Cada contribuição é valiosa e faz toda a diferença!
-                        <a href="doacao.html"><button type="button" class="btn btn-primary active">Ver mais</button></a>
+                        <a href="doacao.php"><button type="button" class="btn btn-primary active">Ver mais</button></a>
                     </p>
                 </div>
                 <div class="col">

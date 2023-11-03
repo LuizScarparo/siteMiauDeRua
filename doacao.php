@@ -22,7 +22,7 @@ include 'includes/header.php';
                         <h3 class="donation">Pix</h3>
                         <p>Chave pix: asdasd@asdads.com</p>
                         <p>Ou escaneie o QR Code:</p>
-                        <img src="/assets/qrCode.png" alt="" srcset="">
+                        <img src="./assets/qrCode.png" alt="" srcset="">
                     </div>
                     <div class="donationCard">
                         <h3 class="donation">Transferência bancária</h3>

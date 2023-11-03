@@ -22,7 +22,7 @@ include 'includes/header.php';
                         <div id="carouselExampleFade" class="carousel slide carousel-fade">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/assets/gato2.jpg" class="d-block w-100 img-fluid" alt="...">
+                                    <img src="./assets/gato2.jpg" class="d-block w-100 img-fluid" alt="...">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="./assets/gatoDeOculos.png" class="d-block w-100 img-fluid" alt="...">
@@ -84,7 +84,7 @@ include 'includes/header.php';
             <div class="card text-center">
                 <div class="card-body">
                     <p class="helpClass">Para apoiar a Miau de Rua e manter viva a esperança de ajudar cada vez mais gatinhos em situações de risco, você pode participar das campanhas de arrecadação, comparecer aos eventos organizados pela organização, fazer doações financeiras, adquirir produtos da loja para ajudar na arrecadação de fundos, oferecer-se como voluntário para auxiliar nas atividades da ONG, compartilhar informações sobre a organização em suas redes sociais, divulgar o trabalho da Miau de Rua e ajudar-nos a fazer a diferença tanto na vida deles quanto na nossa. Juntos, podemos criar um impacto positivo e melhorar o mundo para esses adoráveis gatinhos e para todos nós.</p>
-                    <a href="contribua.html"><button type="button" class="btn btn-primary active">Nos apoie</button></a>
+                    <a href="contribua.php"><button type="button" class="btn btn-primary active">Nos apoie</button></a>
 
                 </div>
             </div>
