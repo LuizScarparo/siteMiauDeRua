@@ -28,25 +28,25 @@
                 <div class="col-lg-2 col-xs-12 shortcuts">
                     <h4 class="mt-lg-0 mt-sm-4">Atalhos</h4>
                     <p>
-                        <a href="/index.php" class="text-reset">Home</a>
+                        <a href="./index.php" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/ong.php" class="text-reset">ONG</a>
+                        <a href="./ong.php" class="text-reset">ONG</a>
                     </p>
                     <p>
-                        <a href="/contribua.php" class="text-reset">Nos ajude</a>
+                        <a href="./contribua.php" class="text-reset">Nos ajude</a>
                     </p>
                     <p>
-                        <a href="/conhecaMimis.php" class="text-reset">Conheça os mimis</a>
+                        <a href="./conhecaMimis.php" class="text-reset">Conheça os mimis</a>
                     </p>
                     <p>
-                        <a href="/produtos.php" class="text-reset">Nossos produtos</a>
+                        <a href="./produtos.php" class="text-reset">Nossos produtos</a>
                     </p>
                     <p>
-                        <a href="/contribua.php" class="text-reset">Doe</a>
+                        <a href="./contribua.php" class="text-reset">Doe</a>
                     </p>
                     <p>
-                        <a href="/apoiadores.php" class="text-reset">Apoiadores</a>
+                        <a href="./apoiadores.php" class="text-reset">Apoiadores</a>
                     </p>
                 </div>
             </div>
